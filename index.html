@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+<link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+<link rel="shortcut icon" href="https://th.bing.com/th/id/OIP.UiJhPq3xNzyQwMFU48ThrQHaEP?rs=1&pid=ImgDetMain" type="image/x-icon">
+    <title>Codehub.co</title>
+</head>
+<body>
+        <nav class="nav " id="navbar" >
+            <div class="logo">CODEHUB</div>
+
+            <input type="checkbox" name="" id="click" class="click">
+
+         <label for="click" class="menu-btn" onclick="toggleMenu()">
+            <i class="ri-menu-2-line"></i>
+         </label>
+            
+            <ul class="menu">
+                <li><a class="active" href="#home" onclick="handleItemClick(this)">Home</a></li>
+                <li><a href="#about-us" onclick="handleItemClick(this)">About</a></li>
+                <li><a href="#page5" onclick="handleItemClick(this)">Contact-us</a></li>
+                <li><a href="#cards" onclick="handleItemClick(this)">Project</a></li>
+                <li><a href="./images/resume (1).pdf" download="">Resume</a></li>
+               
+            </ul>
+        </nav>
+  
+    <div class="cursor"></div>
+    <div class="cursor-blur"></div>
+    <video id="vid" autoplay muted loop playsinline poster="https://images.unsplash.com/photo-1703442701300-cb06c58378a2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1fHx8ZW58MHx8fHx8">
+        <source src="https://assets.mixkit.co/videos/preview/mixkit-animation-of-futuristic-devices-99786-large.mp4" type="video/mp4">>  
+      </video>
+
+      
+    <div class="main" id="home">
+                <div class="page1">
+                     <h1>EAT. DRINK. CODE.</h1>
+                    <h3>WELCOME TO CODEHUB FAMILY ZIRA!</h3>
+                    <p></p>
+                        <a href="#scorller">
+                        <div class="arrow">
+                            <i class="ri-arrow-down-line"></i>      
+                        </div>
+                    </a>
+                </div>
+           <div class="page2" id="page2">
+                <div id="scorller">
+                    <div id="scroller-in">
+                        <h4>"Programming is the art of telling a computer what to do; debugging is the art of figuring out why it won't do it."</h4>
+                        
+                    </div>
+                   
+                </div>
+
+                <div id="about-us">
+                    <img src="./images/Photo.jpg" alt="" loading="lazy">
+                    <div id="about-us-in">
+                        <h3>ABOUT US</h3>
+                        <p>As a passionate MERN Stack Developer, I specialize in crafting dynamic and responsive web applications that seamlessly integrate the power of MongoDB, Express.js, React.js, and Node.js. With a keen eye for design and a commitment to delivering robust and scalable solutions, I bring a wealth of skills and experience to the table. </p>
+                    </div>
+                    <img loading="lazy" src="https://th.bing.com/th/id/OIP.7A2hkFik8dsr3S_BfXxy-gHaHa?rs=1&pid=ImgDetMain" alt="">
+                </div>
+
+                <div class="cards" id="cards">
+                    
+                    <div class="card" id="card1">
+                        <div class="content">
+                            <h3>Myntra Interface Clone</h3>
+                            <p>A Myntra clone refers to a replica or imitation of the Myntra e-commerce platform, which is one of India’s largest online stores for fashion and lifestyle products. These clones are often created for educational purposes or to demonstrate frontend development skills.</p>
+                        </div>
+                    </div>
+                    <div class="card" id="card2">                     
+                        <div class="content">
+                            <h3>Pinterest Clone</h3>
+                            <p>A Pinterest clone is essentially a web application that mimics the core features and functionalities of Pinterest, a popular image sharing and social media service. These clones are often developed for educational purposes, to demonstrate web development skills.</p>
+                        </div>
+                    </div>
+                    <div class="card" id="card3">
+                        <div class="content">
+                            <h3>Feed poor Donation Web</h3>
+                            <p>Creating a web application dedicated to feeding the poor can have a profound impact on society. and accepting payment from people those wanna help feed poor. </p>    
+                        </div>
+                    </div>
+                    
+                   
+                    
+                    
+                    
+                    
+                </div>
+
+                <div class="green-div">
+                    <img src="" alt="">
+                    <h2>Let's Work together</h2>
+                    <img src="" alt="">
+                </div>
+
+                
+            </div>
+
+            <div class="page-3">
+                <div class="right">
+                    <img src="https://live.staticflickr.com/2357/2634824703_18b3ff0562_b.jpg" alt="">
+                </div>
+                <div class="left">
+                    <div class="leftContent">
+                    <h2>Full Stack Developer</h2>
+                    <h4>As a passionate MERN Stack Developer, I specialize in crafting dynamic and responsive web applications that seamlessly integrate the power of MongoDB, Express.js, React.js, and Node.js. With a keen eye for design and a commitment to delivering robust and scalable solutions, I bring a wealth of skills and experience to the table. </h4>
+                    <h4>If you are Looking for a web/app developer or need help with your project then feel free to contact me. </h4>
+
+                    <button class="btn">Read-Me</button>
+  
+                </div>
+                </div>
+            </div>
+
+            <div class="page4">
+                <i id="colon1" class="ri-double-quotes-l"></i>
+                
+                        <p>"Coding is not just about building applications; it's about building a better, more connected world."</p>                   
+                    <i id="colon2" class="ri-double-quotes-r"></i>
+            </div>
+
+            <div class="page5" id="page5" style="cursor: pointer;">
+                <h1>WHAT ARE YOU WAITING FOR</h1>
+                <div class="elem">
+                    <a href="https://github.com/LvuProgram"><h2>GitHub</h2></a>
+                    <img src="https://th.bing.com/th/id/OIP.eaNty4-p2nNxs-7VAHypzQHaDt?rs=1&pid=ImgDetMain" alt="">
+                </div>
+                <div class="elem" >
+                    <a href="https://www.linkedin.com/in/shantam-kumar-56aa22214/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><h2>LinkedIn</h2></a>
+                    <img src="https://logos-world.net/wp-content/uploads/2020/05/Linkedin-Logo.png" alt="">
+                </div>
+                <div class="elem">
+                    <a href="mailto:shantamkrstm@gmail.com"><h2>Email</h2></a>
+                    <img src="https://www.stevenengelhardt.com/images/2013/01/email.jpg" alt="">
+                </div>
+                
+            </div>
+            
+            <div class="footer">
+                <div class="logo" >
+                    <h1>CODEHUB</h1>
+                 </div>
+                 <div class="footer-content" id="fo-1">
+                    <h3>Projects</h3>
+                    <h3>Resume</h3>
+                    <h3>contact-Us</h3>
+                 </div>
+                 <div class="footer-content" id="fo-2">
+                    <h3>LinkedIn</h3>
+                    <h3>GitHub</h3>
+                    <h3>Email</h3>
+                 </div>
+                 <div class="footer-content" id="fo-3">
+                    <p>shri krishna nagar sitamarhi bihar 843302 tel : 7456004818</p>
+                    <h5>get directions</h5>
+                 </div>
+
+                 <p>&copy Copyright, created by ❤️ Shantam singh  2024 </p>
+                 
+            </div>
+            
+    </div>
+              <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+              <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+              <script src="script.js"></script>
+</body>
+</html>
